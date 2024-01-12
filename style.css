@@ -1,0 +1,98 @@
+.home-container{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    
+}
+.header-container{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+   
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.logo{
+    font-size: 23px;
+    padding: 5px 20px 5px 20px;
+    color: rgba(226, 120, 13, 0.762);
+}
+
+
+.right-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: darkslategrey;
+    transition: all 2s ;
+    height: 100%;
+    width: 50%;
+}
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 35px 10px 5px 60px;
+    color: white;
+}
+.menu a:hover{
+    transform: translateY(-2.1rem);
+}
+
+
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(37, 33, 33);
+}
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    height: 100vh;
+    width: 50%;
+    background-color:rgb(37, 33, 33);
+}
+.dish-pic{
+    border-radius: 117px;
+    height: 500px;
+    width: 500px;
+    background-color:whitesmoke ;
+    background-image: url('https://www.dineout.co.in/blog/wp-content/uploads/2019/11/Blog-1-1.jpg');
+    background-position: center;
+   transition: all 2s ;
+   cursor: pointer;
+}
+
+.dish-pic:hover{
+    transform: translateY(-2.1rem);
+}
+
+span{
+    font-size: 119PX;
+    color: yellow;
+}
+p{
+    padding: 10px;
+    line-height: 2;
+    font-size: 18px;
+    color: azure;
+}
+h1{
+    letter-spacing: 3;
+    color: azure;
+}
+
